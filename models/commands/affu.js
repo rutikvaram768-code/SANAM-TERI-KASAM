@@ -18,7 +18,7 @@ module.exports.handleEvent = async function({ api, event }) {
 
   // Initial call
   if (body.trim().toLowerCase() === "dewani") {
-    return api.sendMessage("HAn ji Shaan Babu? Dewani haazir hai.. ✨😘", threadID, messageID);
+    return api.sendMessage("HAn ji Rutik Babu? Dewani haazir hai.. ✨😘", threadID, messageID);
   }
 
   const isReplyToBot = messageReply && messageReply.senderID == api.getCurrentUserID();
