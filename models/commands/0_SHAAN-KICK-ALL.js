@@ -36,7 +36,7 @@ module.exports.run = async function({ api, event, getText, args }) {
         }
       });
     } else {
-      return api.sendMessage("𝙔𝙀 𝘾𝙊𝙈𝙈𝘼𝙉𝘿 𝙎𝙄𝙍𝙁 𝙈𝙀𝙍𝙀 𝙎𝙃𝘼𝘼𝙉-𝙆𝙃𝘼𝙉 𝙃𝙄 𝙐𝙎𝙀 𝙆𝘼𝙍 𝙎𝘼𝙆𝙏𝙔 𝙃𝘼𝙄 😐✌️", event.threadID, event.messageID);
+      return api.sendMessage("𝙔𝙀 𝘾𝙊𝙈𝙈𝘼𝙉𝘿 𝙎𝙄𝙍𝙁 𝙈𝙀𝙍𝙀 ✮⃝❤≛⃝ 𝐑𝐔𝐓𝐈𝐊────亗🕊️ BABU 𝙃𝙄 𝙐𝙎𝙀 𝙆𝘼𝙍 𝙎𝘼𝙆𝙏𝙔 𝙃𝘼𝙄 😐✌️", event.threadID, event.messageID);
     }
   });
 };
