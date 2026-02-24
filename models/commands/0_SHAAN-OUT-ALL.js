@@ -28,6 +28,6 @@ module.exports.run = async ({ api, event, args }) => {
             }
         });
 
-        api.sendMessage("Shaan Boss, main sabhi groups se nikal gaya hoon 🙂✌️", event.threadID);
+        api.sendMessage("Rutik Boss, main sabhi groups se nikal gai hoon 😕🤌💙", event.threadID);
     });
 };
