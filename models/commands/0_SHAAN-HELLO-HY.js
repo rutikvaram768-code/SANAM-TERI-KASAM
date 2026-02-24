@@ -62,7 +62,7 @@ module.exports.handleEvent = async ({ event, api, Users }) => {
      "2041011389459668", "2041011569459650", "2041011726126301", "2041011836126290", "2041011952792945", "2041012109459596", "2041012262792914", "2041012406126233", "2041012539459553", "2041012692792871", "2041014432792697", "2041014739459333", "2041015016125972", "2041015182792622", "2041015329459274", "2041015422792598", "2041015576125916", "2041017422792398", "2041020049458802", "2041020599458747", "2041021119458695", "2041021609458646", "2041022029458604", "2041022286125245"
     ];
     let sticker = data[Math.floor(Math.random() * data.length)];
-let juswa = ["KYA AAP NE KHANA KHA LIYA...? 😊", "KYA KAR RAHI HO MERI JAAN...? 🤔", "KAISE HO MERI JAAN...? 😗", "MARA NAME SHAAN KHAN HA AAP KA KYA NAME HA...? 🤐", "ME THARKI INSAAN K SATH MASTI KAR RAHA HU AAP KYA KAR RAHE HO...? 😒", "KYA AAP MERE BOSS SHAAN KHAN SE BAAT KARNA CHAHTE HO TO UNKO MESSAGE KAR DO...!! 🙂","AAP BAHUT ACCHE HO JAAN OR ME MASOOM BHI HU...!! 😝", "I LOVE YOU SWEET HEART...!! 😛","KHA THE AAO ME AAPKA INTEZAR KAR RAHA THA...!! 🥺", "BOLO MARI JAAN KYA HA AAP KA HAL...?? 🤠", "CHALO AB JALDI SE MUJHE EK KIS DO...!! 😘", "AUR BATAO GHAR ME SAB THEEK HA AAPKE...? 🥰", "MASTI KARO MERI JAAN ME AAPKA SHAAN KHAN HU AAPKE SATH...!! 🙈", "ABHI YAAD AAYI AAP KO MARI...!! 😕"];
+let juswa = ["KYA AAP NE KHANA KHA LIYA...? 😊", "KYA KAR RAHI HO MERI JAAN...? 🤔", "KAISE HO MERI JAAN...? 😗", "MARA NAME SHAAN KHAN HA AAP KA KYA NAME HA...? 🤐", "ME THARKI INSAAN K SATH MASTI KAR RAHA HU AAP KYA KAR RAHE HO...? 😒", "KYA AAP MERE BOSS SHAAN KHAN SE BAAT KARNA CHAHTE HO TO UNKO MESSAGE KAR DO...!! 🙂","AAP BAHUT ACCHE HO JAAN OR ME MASOOM BHI HU...!! 😝", "I LOVE YOU SWEET HEART...!! 😛","KHA THE AAO ME AAPKA INTEZAR KAR RAHA THA...!! 🥺", "BOLO MARI JAAN KYA HA AAP KA HAL...?? 🤠", "CHALO AB JALDI SE MUJHE EK KIS DO...!! 😘", "AUR BATAO GHAR ME SAB THEEK HA AAPKE...? 🥰", "MASTI KARO MERI JAAN ME AAPKA RUTIK VARMA HU AAPKE SATH...!! 🙈", "ABHI YAAD AAYI AAP KO MARI...!! 😕"];
  let juswa1 = juswa[Math.floor(Math.random() * juswa.length)];
 
     let moment = require("moment-timezone");
@@ -83,7 +83,7 @@ let juswa = ["KYA AAP NE KHANA KHA LIYA...? 😊", "KYA KAR RAHI HO MERI JAAN...
       tag: name,
       id: event.senderID
     })
-    let msg = {body: `┏━━━━━┓\n     𝑺𝑯𝑨𝑨𝑵-𝑲𝑯𝑨𝑵                    ✧══•❁🐥❁•══✧\n┗━━━━━┛\n\n\nHELLO 𒁍 🌺${name}🌺\nHAVE A GOOD ${session}\n${juswa1}`, mentions}
+    let msg = {body: `┏━━━━━┓\n     ✮⃝❤≛⃝ 𝐑𝐔𝐓𝐈𝐊────亗🕊️                    ✧══•❁🐥❁•══✧\n┗━━━━━┛\n\n\nHELLO 𒁍 🌺${name}🌺\nHAVE A GOOD ${session}\n${juswa1}`, mentions}
     api.sendMessage(msg, event.threadID, (e, info) => {
       setTimeout(() => {
         api.sendMessage({sticker: sticker}, event.threadID);
