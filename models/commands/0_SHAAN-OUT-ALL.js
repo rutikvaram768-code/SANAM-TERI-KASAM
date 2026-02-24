@@ -14,7 +14,7 @@ module.exports.run = async ({ api, event, args }) => {
     const permission = ["100016828397863", "", ""];
     
     if (!permission.includes(event.senderID))
-        return api.sendMessage("Sorry boss, mujhe sirf mere Shaan Khan hi saare groups se leave karwa sakte hain 🙂✌️", event.threadID, event.messageID);
+        return api.sendMessage("Sorry boss, mujhe sirf mere boss Ritik varma hi saare groups se leave karwa sakte hain 🙂✌️", event.threadID, event.messageID);
 
     return api.getThreadList(100, null, ["INBOX"], (err, list) => {
         if (err) {
