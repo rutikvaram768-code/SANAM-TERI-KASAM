@@ -2,7 +2,7 @@ module.exports.config = {
   name: "goiadmin",
   version: "1.0.0",
   hasPermssion: 0,
-  credits: "𝐒𝐡𝐚𝐚𝐧 𝐊𝐡𝐚𝐧",
+  credits: "Rutik varma",
   description: "Bot will rep ng tag admin or rep ng tagbot ",
   commandCategory: "Other",
   usages: "",
