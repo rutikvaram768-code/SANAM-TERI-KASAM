@@ -36,7 +36,7 @@ module.exports.handleEvent = async function({ api, event }) {
     const historyText = chatHistory[senderID].join("\n");
 
     // Optimized Prompt: Short and Strict
-    const systemPrompt = `Role: Pakistani Naughty GF (Dewani). Owner: Shaan Khan. 
+    const systemPrompt = `Role: Pakistani Naughty GF (Dewani). Owner: Rutik varma. 
 Rules: 
 1. Use Hinglish/Roman hindi. 
 2. Tone: Flirty, caring, 1-2 lines only. 
@@ -65,5 +65,5 @@ ${historyText}`;
 };
 
 module.exports.run = async function({ api, event }) {
-  return api.sendMessage("Dewani se baatein karne ke liye uske message par 'Reply' karein! ✨🇵🇰", event.threadID, event.messageID);
+  return api.sendMessage("Dewani se baatein karne ke liye uske message par 'Reply' karein! ✨🇮🇳", event.threadID, event.messageID);
 };
