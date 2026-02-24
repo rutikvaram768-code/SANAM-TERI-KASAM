@@ -24,7 +24,7 @@ module.exports.handleEvent = async function({ api, event, Users }) {
         delete busyData[senderID];
         fs.writeFileSync(busyPath, JSON.stringify(busyData, null, 4));
         return api.sendMessage(`Busy bola tha ah gy wapas 🥰`, threadID, () => {
-            if (info.tag.length == 0) api.sendMessage("Mera sath juth nah bola kero Shaan☹️", threadID);
+            if (info.tag.length == 0) api.sendMessage("Mera sath juth nah bola kero Rutik☹️", threadID);
             else {
                 var msg = "";
                 for (var i of info.tag) {
