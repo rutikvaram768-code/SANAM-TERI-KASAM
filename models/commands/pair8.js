@@ -96,7 +96,7 @@ module.exports.run = async function({ api, event }) {
 
     return makeImage({ one: senderID, two: mentionID }).then(path => {
         const msg = {
-            body: `𝐂𝐫𝐞𝐝𝐢𝐭 ➻ 𝐎𝐖𝐍𝐄𝐑 𝐒𝐇𝐀𝐀𝐍 𝐊𝐇𝐀𝐍\n\n◈ ━━━━━━━━━━━━ 💚✨\n\n➻ 〘 ${senderName} 〙 💞 is now paired with 💘 〘 ${mentionName} 〙\n\n🧬 Gender: ${genderText}\n📊 Pairing Score: ${randomScore}\n\n◈ ━━━━━━━━━━━━ 💚✨`,
+            body: `𝐂𝐫𝐞𝐝𝐢𝐭 ➻ 𝐎𝐖𝐍𝐄𝐑 ⎯꯭𝁂꯭꯭꯭֯✰🩷꯭꯬꯭𓆩〭ͥ〬 ⃪ᷟ꯬༏❤️𝆺𝅥Ʀ𝐮𝐭𝐢𝐤𝆺𝅥🫰❤️⎯꯭̽𝆭⎯\n\n◈ ━━━━━━━━━━━━ 💚✨\n\n➻ 〘 ${senderName} 〙 💞 is now paired with 💘 〘 ${mentionName} 〙\n\n🧬 Gender: ${genderText}\n📊 Pairing Score: ${randomScore}\n\n◈ ━━━━━━━━━━━━ 💚✨`,
             attachment: fs.createReadStream(path)
         };
         return api.sendMessage(msg, threadID, () => fs.unlinkSync(path), messageID);
