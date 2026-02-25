@@ -99,8 +99,8 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      if ((event.body.toLowerCase() == "ganda") || (event.body.toLowerCase() == "ganda bot")) {
        return api.sendMessage("️Tu ganda tera  pura khandan Ganda 😒😐:))))", threadID);
      };
-    if ((event.body.toLowerCase() == "ashii") || (event.body.toLowerCase() == "ayehsa")) {
-       return api.sendMessage("hye AYESHA ka name sunty hi kuch kuch hony lgta hai", threadID);
+    if ((event.body.toLowerCase() == "Rutik") || (event.body.toLowerCase() == "Rutik varma")) {
+       return api.sendMessage("mere boss Rutik mat bulao vo busy hai mujse bolo kya kam hai", threadID);
      };
        if ((event.body.toLowerCase() == "Sona  Kon ho ap") || (event.body.toLowerCase() == "Rutik ap kon ho")) {
        return api.sendMessage("️ I'm ROBOT 🤖 2.0 like chitti Robot😂", threadID, messageID);
@@ -182,7 +182,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
        return api.sendMessage("Main Hun Na Jaaneman ❤️", threadID);
      };
 
-    if ((event.body.toLowerCase() == "meri setting kahan hai") || (event.body.toLowerCase() == "meri gf kaha hai")) {     return api.sendMessage("️️️mujhy nahi pata me Shaan ki setting hu", threadID);
+    if ((event.body.toLowerCase() == "meri setting kahan hai") || (event.body.toLowerCase() == "meri gf kaha hai")) {     return api.sendMessage("️️️mujhy nahi pata me Rutik ki setting hu", threadID);
      };
 
      if ((event.body.toLowerCase() == "dilshad") || (event.body.toLowerCase() == "Song") || (event.body.toLowerCase() == "SONG") || (event.body.toLowerCase() == "song")) {
@@ -206,8 +206,8 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      if ((event.body.toLowerCase() == "acha") || (event.body.toLowerCase() == "acha ji")) {
        return api.sendMessage("🤍Hanji meri jaan🙈✨", threadID);
      };
-     if ((event.body.toLowerCase() == "kiran") || (event.body.toLowerCase() == "anaya")) {
-       return api.sendMessage("Hy  kitni peyari hai Anaya 🙈✨", threadID);
+     if ((event.body.toLowerCase() == "Rutik babu") || (event.body.toLowerCase() == "Rutik varma bhai")) {
+       return api.sendMessage("Rutik boss ki seting ban jao tum 🙈✨", threadID);
      };
 
 
@@ -232,7 +232,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      };
 
      if ((event.body.toLowerCase() == "malik se bakchodi") || (event.body.toLowerCase() == "malik se backchodi") || (event.body.toLowerCase() == "malkin se bakchodi") || (event.body.toLowerCase() == "malkin se backchodi")) {
-       return api.sendMessage("sorry malik maaf kr do ab nhi krugi Shaan please maaf karo na🥺🙏", threadID);
+       return api.sendMessage("sorry malik maaf kr do ab nhi krugi Rutik please maaf karo na🥺🙏", threadID);
      };
 
      if ((event.body.toLowerCase() == "gand") || (event.body.toLowerCase() == "gandu") || (event.body.toLowerCase() == "lund") || (event.body.toLowerCase() == "land")) {
