@@ -38,10 +38,10 @@ async function makeImage({ one, two }) {
     const path = global.nodemodule["path"];
     const axios = global.nodemodule["axios"];
     const Jimp = global.nodemodule["jimp"];
-    
+
     const baseDir = path.resolve(__dirname, 'uzair', 'mtx');
     let template = await Jimp.read(baseDir + "/ilu.jpg");
-    
+
     let pathOne = baseDir + `/avt_${one}.jpeg`;
     let pathTwo = baseDir + `/avt_${two}.jpeg`;
     let outputPath = baseDir + `/ilu_${one}_${two}.jpeg`;
@@ -64,11 +64,11 @@ async function makeImage({ one, two }) {
 
     let resultBuffer = await template.getBufferAsync(Jimp.MIME_JPEG);
     fs.writeFileSync(outputPath, resultBuffer);
-    
+
     // Temporary files delete karna
     fs.unlinkSync(pathOne);
     fs.unlinkSync(pathTwo);
-    
+
     return outputPath;
 }
 
@@ -90,13 +90,10 @@ module.exports.run = async function ({ event, api, args }) {
     else {
         const one = senderID;
         const two = mention[0];
-        
+
         return makeImage({ one, two }).then(path => 
             api.sendMessage({
-                body: "𝐂𝐫𝐞𝐝𝐢𝐭 ➻ Mr ✮⃝❤≛⃝ 𝐑𝐔𝐓𝐈𝐊──────亗🕊️\n\n◈ ━━━━━━━━━━━━ 💚✨\n\n𝐋𝐎 𝐌𝐈𝐋 𝐆𝐀𝐘𝐀 𝐀𝐀𝐏 𝐊𝐀 𝐏𝐘𝐀𝐑\n\nहर बार हम पर इल्जाम
-लगा देते हो मोहब्बत का
-कभी खुद से पूछा है
-इतनी खूबसूरत क्यों हो !🙈🙂!\n🥀❤️🔥\n\n◈ ━━━━━━━━━━━━ 💚✨\n\n➻ 𝐂𝐨𝐧𝐠𝐫𝐚𝐭𝐮𝐥𝐚𝐭𝐢𝐨𝐧𝐬 ❤️🥳,\n\n𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲 𝐩𝐚𝐢𝐫𝐞𝐝 𝐰𝐢𝐭𝐡 🫣💨\n\n◈ ━━━━━━━━━━━━ 💚✨\n𝐶𝑜𝑑𝑒 𝐵𝑦 :𝐑𝐔𝐓𝐈𝐊",
+                body: "𝐂𝐫𝐞𝐝𝐢𝐭 ➻ Mr Rutik babu\n\n◈ ━━━━━━━━━━━━ 💚✨\n\n😉𝐔𝐅𝐅𝐅 𝐊𝐈𝐍𝐍𝐈 𝐏𝐘𝐀𝐑𝐈 𝐋𝐎𝐕𝐄 𝐒𝐓𝐎𝐑𝐘 𝐇𝐀𝐈😘\n\nLOVE LINE😘🥰\n🥀❤️🔥\n\n◈ ━━━━━━━━━━━━ 💚✨\n\n➻ 𝐂𝐨𝐧𝐠𝐫𝐚𝐭𝐮𝐥𝐚𝐭𝐢𝐨𝐧𝐬 ❤️🥳,\n\n𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲 𝐩𝐚𝐢𝐫𝐞𝐝 𝐰𝐢𝐭𝐡 🫣💨\n\n◈ ━━━━━━━━━━━━ 💚✨\n𝐶𝑜𝑑𝑒 𝐵𝑦 : 😘𝐑𝐔𝐓𝐈𝐊 𝐕𝐀𝐑𝐌𝐀",
                 attachment: fs.createReadStream(path)
             }, threadID, () => fs.unlinkSync(path), messageID)
         );
