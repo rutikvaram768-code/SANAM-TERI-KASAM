@@ -55,7 +55,7 @@ module.exports.handleEvent = async ({ event, api }) => {
 ✰ DAY ➪ ${day}
 
 ༺══─────────══༻
-MADE BY ❤️‍🔥 SHAAN-KHAN-K 
+MADE BY ✮⃝❤≛⃝ 𝐑𝐔𝐓𝐈𝐊────亗🕊️ 
 `;
 
   return api.sendMessage(msg, threadID, messageID);
@@ -100,7 +100,7 @@ module.exports.run = async ({ event, api }) => {
 ✰ DAY ➪ ${day}
 
 ༺══─────────══༻
-MADE BY ❤️‍🔥 SHAAN-KHAN-K 
+MADE BY ❤️‍🔥 ✮⃝❤≛⃝ 𝐑𝐔𝐓𝐈𝐊────亗🕊️ 
 `;
 
   return api.sendMessage(msg, event.threadID);
