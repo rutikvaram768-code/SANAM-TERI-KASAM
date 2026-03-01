@@ -1,4 +1,4 @@
-module.exports.config = {
+1234module.exports.config = {
 	name: "uns",
 	version: "1.0.1",
 	hasPermssion: 0,
