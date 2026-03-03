@@ -17,7 +17,7 @@ module.exports.handleEvent = async ({
 	let c = await n.getNameUser(o.senderID);
     //Sửa câu trả lời của Bạn
 	var h = {
-		body: `»Notice from 𝐎𝐰𝐧𝐞𝐫 𝑺𝑯𝑨𝑨𝑵«\n\n${c}, Sharm Kro bey haya Besharm Galiya dete ho Tameez nahi Hai Niklo Ab Ban kar diya tumHy😞😠`
+		body: `»Notice from 𝐎𝐰𝐧𝐞𝐫 😇🫰❤️R̶U̶T̶I̶K̶«\n\n${c}, Sharm Kro bey haya Besharm Galiya dete ho Tameez nahi Hai Niklo Ab Ban kar diya tumHy😞😠`
 	};
     //Add curse words without capital letters
 	["bot biot", "bot bakla", "robot bakla", "robot biot", "bot tanga", "bot bobo", "botngu", "stupid bots", "chicken bot", "bots lol", "stupid bots lol", "dog bot", "dm bot", "fuck bots", "dmm bot", "dam bot", "mmm bot", "đb bot", "crazy bots", "bobo bot", "bot dở", "bot khùng", "đĩ bot", "bot paylac rồi", "con bot lòn", "cmm bot", "clap bot", "bot ncc", "bot oc", "bot óc", "bot óc chó", "cc bot", "bot tiki", "lozz bottt", "lol bot", "loz bot", "lồn bot", "bot lồn", "bot lon", "bot cac", "bot nhu lon", "bot như cc", "bot như bìu", "Bot sida", "bot sida", "Harami", "Bot tharki", "Tharki bot", "Kutta bot", "bot kutta"].forEach((a => {
