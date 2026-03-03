@@ -64,7 +64,7 @@ module.exports.run = async ({ api, event }) => {
     }
 
     // Create response message with all URLs
-    let message = '⎯꯭᪳✫꯭🎸꯭≛⃝𝐒𝐇𝐀𝐀𝐍-𝐊𝐇𝐀𝐍-𝐊⎯᪳⤹🌷\n\n≿━━━━༺❀༻━━━━≾\n\n⚡ 𝗨𝗣𝗟𝗢𝗔𝗗𝗘𝗗 𝗜𝗠𝗔𝗚𝗘 𝗟𝗜𝗡𝗞𝗦 ⚡\n\n';
+    let message = '✮⃝❤≛⃝ 𝐑𝐮𝐭𝐢𝐤───亗🕊️🌷\n\n≿━━━━༺❀༻━━━━≾\n\n⚡ 𝗨𝗣𝗟𝗢𝗔𝗗𝗘𝗗 𝗜𝗠𝗔𝗚𝗘 𝗟𝗜𝗡𝗞𝗦 ⚡\n\n';
     uploadedUrls.forEach((url, index) => {
       message += `👉 ${index + 1}. ${url}\n`;
     });
