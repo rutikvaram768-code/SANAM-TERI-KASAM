@@ -31,9 +31,9 @@ module.exports.run = async function({ api, event }) {
         if (event.logMessageData.addedParticipants.some(i => i.userFbId == api.getCurrentUserID())) {
                 api.changeNickname(`{ ${global.config.PREFIX} } × ${(!global.config.BOTNAME) ? "bot" : global.config.BOTNAME}`, threadID, api.getCurrentUserID());
                 const fs = require("fs");
-                return api.sendMessage("radhe radhe💛💐 Everyone🥀🥀", event.threadID, () => api.sendMessage({body:`🌺Shaan🦋🌺 CONNECTED«
+                return api.sendMessage("🙏❣️radhe radhe🥰🙏 Everyone🥀🥀", event.threadID, () => api.sendMessage({body:`🌺Rutik🦋🌺 CONNECTED«
 
-Bot Made By SHAAN KHAN K☘️
+Bot Made By ✮⃝❤≛⃝ 𝐑𝐮𝐭𝐢𝐤───亗🕊️
 <------------------------------>  
 BOT CONNECTED SUCCESFUL !!! 
 
@@ -45,11 +45,11 @@ USE HELP TO SEE COMMAND
 <<<<<------------------------------>>>>>
 AND FOR ANY REPORT OR CONTACT BOT DEVELOPER
 
-OWNER: 𝐒𝐇𝐀𝐀𝐍
+OWNER: ꯬༏❤️𝆺𝅥Ʀ𝐮𝐭𝐢𝐤𝆺𝅥🫰❤️
 
 ♻️Facebook: 
 
-https://www.facebook.com/profile.php?id=100016828397863&mibextid=ZbWKwL
+https://www.facebook.com/rutik.varma.543?mibextid=ZbWKwL/profile.php?id=100016828397863&mibextid=ZbWKwL
 
 Youtube Site : N/A
 
@@ -57,9 +57,9 @@ Youtube Site : N/A
 
 https://www.instagram.com/shankhank345?igsh=MXVneXZ6bzR4bHhvcg==￼
 
-☣️Email: shankhank345@gmail.com
+☣️Email: 
 
-⚠️Wp: +92 3368783346 `, attachment: fs.createReadStream(__dirname + "/cache/lv_7413647234832682256_20250105005634.mp4")} ,threadID));
+⚠️Wp: 91+9921😝 `, attachment: fs.createReadStream(__dirname + "/cache/lv_7413647234832682256_20250105005634.mp4")} ,threadID));
         }
         else {
                 try {
