@@ -30,8 +30,8 @@ module.exports.handleReply = async function ({ event, api, Currencies, handleRep
                 case `A`: {
                            data.push(idBox);
                            fs.writeFileSync(dataPath, JSON.stringify(data, null, 2));
-                           api.sendMessage(`💐𝐖𝐄𝐋𝐂𝐎𝐌𝐄 𝐓𝐎 𝐒𝐇𝐀𝐀𝐍 𝐁𝐎𝐓 𝐁𝐀𝐁𝐘💐 😇👈
-=𝐎𝐰𝐧𝐞𝐫 ➻    🌹 𝐌𝐑.𝐒𝐇𝐀𝐀𝐍 🌹●============================================================● 💐𝐀𝐏𝐊𝐄 𝐆𝐑𝐎𝐔𝐏 𝐊𝐎 𝐌𝐄𝐑𝐄 𝐁𝐎𝐒𝐒 𝐀𝐑𝐘𝐀𝐍 𝐍𝐄 𝐀𝐏𝐏𝐑𝐎𝐕𝐄 𝐊𝐀𝐑 𝐃8𝐘𝐀 𝐇𝐀𝐈𝐈💐 =𝐎𝐰𝐧𝐞𝐫 ➻    🌹 𝐌𝐑.𝐒𝐇𝐀𝐀𝐍 🌹\n${idBox}`, threadID, () => {
+                           api.sendMessage(`💐𝐖𝐄𝐋𝐂𝐎𝐌𝐄 𝐓𝐎 𝐒𝐎𝐍𝐀 𝐁𝐎𝐓 𝐁𝐀𝐁𝐘💐 😇👈
+=𝐎𝐰𝐧𝐞𝐫 ➻    😘😍𝐒𝐎𝐍𝐀 𝐌𝐎𝐍𝐀 🙈🥰 ●============================================================● 💐𝐀𝐏𝐊𝐄 𝐆𝐑𝐎𝐔𝐏 𝐊𝐎 𝐌𝐄𝐑𝐄 𝐁𝐎𝐒𝐒 𝐀𝐑𝐘𝐀𝐍 𝐍𝐄 𝐀𝐏𝐏𝐑𝐎𝐕𝐄 𝐊𝐀𝐑 𝐃8𝐘𝐀 𝐇𝐀𝐈𝐈💐 =𝐎𝐰𝐧𝐞𝐫 ➻    ✮⃝❤≛⃝ 𝐑𝐮𝐭𝐢𝐤───亗🕊️\n${idBox}`, threadID, () => {
           dataP.splice(dataP.indexOf(idBox), 1);
                     fs.writeFileSync(dataPending, JSON.stringify(dataP, null, 2));
             }, messageID)
@@ -101,7 +101,7 @@ module.exports.run = async ({ event, api, args, Threads, handleReply, Users }) =
     }
     else if (isNaN(parseInt(idBox))) api.sendMessage("[ ERR ] The ID you entered is not valid", threadID, messageID);
     else if (data.includes(idBox)) api.sendMessage(`[ - ] ID ${idBox} pre-approved!`, threadID, messageID);
-           else api.sendMessage("💐𝐖𝐄𝐋𝐂𝐎𝐌𝐄 𝐓𝐎 𝐒𝐇𝐀𝐀𝐍 𝐁𝐎𝐓 𝐁𝐀𝐁𝐘💐 😇●============================================================● 💐𝐀𝐏𝐊𝐄 𝐆𝐑𝐎𝐔𝐏 𝐊𝐎 𝐌𝐄𝐑𝐄 𝐁𝐎𝐒𝐒 𝆺𝅥Ʀ𝐮𝐭𝐢𝐤𝆺𝅥 𝐍𝐄 𝐀𝐏𝐏𝐑𝐎𝐕𝐄 𝐊𝐀𝐑 𝐃8𝐘𝐀 𝐇𝐀𝐈𝐈💐 𝐎𝐰𝐧𝐞𝐫 ➻    ⎯꯭𝁂꯭꯭꯭֯✰🩷꯭꯬꯭𓆩〭ͥ〬 ⃪ᷟ꯬༏❤️𝆺𝅥Ʀ𝐮𝐭𝐢𝐤𝆺𝅥🫰❤️⎯꯭̽𝆭⎯ \n✧●============================================================●\n●====== 𝐀𝐁𝐁  𝐊𝐀𝐑𝐎  𝐌𝐄𝐒𝐓𝐈 =====●\n●============================================================●\n=𝐎𝐰𝐧𝐞𝐫 ➻   ✮⃝❤≛⃝ 𝐑𝐔𝐓𝐈𝐊──────亗🕊️🌹\n●============================================================●\n𝐀𝐩𝐏𝐤𝐀 𝐏𝐲𝐑𝐚 𝐎𝐰𝐧𝐞𝐫 ➻    ✮⃝❤≛⃝ 𝐑𝐔𝐓𝐈𝐊──────亗🕊️ \n●============================================================●\n𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐢𝐝 𝐥𝐢𝐧𝐤 😊👈 ✮⃝❤≛⃝ 𝐑𝐔𝐓𝐈𝐊──────亗🕊️ :- ☞ https://www.facebook.com/rutik.varma.543?mibextid=ZbWKwL/profile.php?id=100016828397863\n●============================================================●\n💐𝐊𝐈𝐒𝐈 𝐁𝐇𝐈 𝐓𝐀𝐑𝐀𝐇 𝐊𝐈 𝐇𝐄𝐋𝐏 𝐋𝐄𝐍𝐄 𝐊 𝐋𝐈𝐘𝐄 𝐌𝐄𝐑𝐄 𝐁𝐎𝐒𝐒 𝐒𝐄 𝐁𝐀𝐓 𝐊𝐀𝐑𝐎💐 𝐎𝐰𝐧𝐞𝐫 ➻    ✮⃝❤≛⃝ 𝐑𝐔𝐓𝐈𝐊──────亗🕊️🌹●============================================================● 👉 [💐𝐑𝐄𝐀𝐋𝐓𝐈𝐎𝐍𝐒𝐇𝐈𝐏💐:🥀 ]", idBox, (error, info) => {
+           else api.sendMessage("💐𝐖𝐄𝐋𝐂𝐎𝐌𝐄 𝐓𝐎 😘😍𝐒𝐎𝐍𝐀 𝐌𝐎𝐍𝐀 🙈🥰 𝐁𝐎𝐓 𝐁𝐀𝐁𝐘💐 😇●============================================================● 💐𝐀𝐏𝐊𝐄 𝐆𝐑𝐎𝐔𝐏 𝐊𝐎 𝐌𝐄𝐑𝐄 𝐁𝐎𝐒𝐒 𝆺𝅥Ʀ𝐮𝐭𝐢𝐤𝆺𝅥 𝐍𝐄 𝐀𝐏𝐏𝐑𝐎𝐕𝐄 𝐊𝐀𝐑 𝐃8𝐘𝐀 𝐇𝐀𝐈𝐈💐 𝐎𝐰𝐧𝐞𝐫 ➻    ⎯꯭𝁂꯭꯭꯭֯✰🩷꯭꯬꯭𓆩〭ͥ〬 ⃪ᷟ꯬༏❤️𝆺𝅥Ʀ𝐮𝐭𝐢𝐤𝆺𝅥🫰❤️⎯꯭̽𝆭⎯ \n✧●============================================================●\n●====== 𝐀𝐁𝐁  𝐊𝐀𝐑𝐎  𝐌𝐄𝐒𝐓𝐈 =====●\n●============================================================●\n=𝐎𝐰𝐧𝐞𝐫 ➻   ✮⃝❤≛⃝ 𝐑𝐔𝐓𝐈𝐊──────亗🕊️🌹\n●============================================================●\n𝐀𝐩𝐏𝐤𝐀 𝐏𝐲𝐑𝐚 𝐎𝐰𝐧𝐞𝐫 ➻    ✮⃝❤≛⃝ 𝐑𝐔𝐓𝐈𝐊──────亗🕊️ \n●============================================================●\n𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐢𝐝 𝐥𝐢𝐧𝐤 😊👈 ✮⃝❤≛⃝ 𝐑𝐔𝐓𝐈𝐊──────亗🕊️ :- ☞ https://www.facebook.com/rutik.varma.543?mibextid=ZbWKwL/profile.php?id=100016828397863\n●============================================================●\n💐𝐊𝐈𝐒𝐈 𝐁𝐇𝐈 𝐓𝐀𝐑𝐀𝐇 𝐊𝐈 𝐇𝐄𝐋𝐏 𝐋𝐄𝐍𝐄 𝐊 𝐋𝐈𝐘𝐄 𝐌𝐄𝐑𝐄 𝐁𝐎𝐒𝐒 𝐒𝐄 𝐁𝐀𝐓 𝐊𝐀𝐑𝐎💐 𝐎𝐰𝐧𝐞𝐫 ➻    ✮⃝❤≛⃝ 𝐑𝐔𝐓𝐈𝐊──────亗🕊️🌹●============================================================● 👉 [💐𝐑𝐄𝐀𝐋𝐓𝐈𝐎𝐍𝐒𝐇𝐈𝐏💐:🥀 ]", idBox, (error, info) => {
                    api.changeNickname(` 〖 ${global.config.PREFIX} 〗 ➺ ${(!global.config.BOTNAME) ? "" : global.config.BOTNAME}`, idBox, global.data.botID);
       const axios = require('axios');
         const request = require('request');
@@ -117,7 +117,7 @@ module.exports.run = async ({ event, api, args, Threads, handleReply, Users }) =
         let ext = res.data.url.substring(res.data.url.lastIndexOf(".") + 1);
         let callback = function () {
       api.sendMessage({body: `❒❒ 💐𝐁𝐀𝐁𝐘 𝐁𝐎𝐓 𝐀𝐑𝐄 𝐍𝐎𝐖 𝐂𝐎𝐍𝐍𝐄𝐂𝐓𝐄𝐃💐 ❒❒\n=====================\n┏━━━━ 🖤 ━━━━┓
-  ✦❥⋆⃝𝐌𝐑.𝐒𝐇𝐀𝐀𝐍 シ︎
+ ✮⃝❤≛⃝ 𝐑𝐔𝐓𝐈𝐊──────亗🕊️シ︎
 
 ┗━━━    🖤 ━━━━┛\n=====================\n➪ BOT: ${global.config.BOTNAME}\n➪ Prefix: ${global.config.PREFIX}\n➪ Users: ${global.data.allUserID.length}\n➪ Groups: ${global.data.allThreadID.length}\n=====================\n[]---------------------------------------[]\nUse '${global.config.PREFIX}Help' T0o View The Commands That Available! 💖\n[]---------------------------------------[]\n⌨ Made by: ${firstname}\n`, mentions: [{
                            tag: firstname,
