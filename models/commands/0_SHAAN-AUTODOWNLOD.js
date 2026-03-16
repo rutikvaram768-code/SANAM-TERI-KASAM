@@ -53,7 +53,7 @@ module.exports = {
 
       return api.sendMessage(
         {
-          body: `✨❁ ━━ ━[💙≛⃝🇸𝙤𝙣𝙖🍁࿐💙] ❁✨\n\nᴛɪᴛʟᴇ: ${videoTitle}\n\n✨❁ ━━ ━[𝁂꯭꯭꯭֯✰𓆩〭ͥ〬꯬༏❤️𝆺𝅥Ʀ𝐮𝐭𝐢𝐤𝆺𝅥🫰❤️⎯꯭̽𝆭]━ ❁✨`,
+          body: `✨❁ ━━ ━[亗•Alone✿᭄𓆩💔𓆪] ❁✨\n\nᴛɪᴛʟᴇ: ${videoTitle}\n\n✨❁ ━━ ━[❤️‍🩹𝙍𝙪𝙩𝙞𝙠..🙂🫰❤️☆]━ ❁✨`,
           attachment: fs.createReadStream(filePath),
         },
         event.threadID,
